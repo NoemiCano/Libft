@@ -1,0 +1,1 @@
+// En libft.h solo van las declaraciones (los prototipos) de las funciones, los #include necesarios y la estructura del header guard para evitar inclusiones dobles. No se escribe el código/comportamiento de la función aquí
