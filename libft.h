@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ncano-co <ncano-co@student.42madrid.c      +#+  +:+       +#+        */
+/*   By: ncano-co <ncano-co@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/28 18:28:35 by ncano-co          #+#    #+#             */
-/*   Updated: 2026/09/28 18:28:37 by ncano-co         ###   ########.fr       */
+/*   Updated: 2026/09/30 17:41:15 by ncano-co         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,4 +21,5 @@
 
 void	*ft_memset(void *s, int c, size_t n);
 
+//Puede que tenga que añadir la librería que contiene el NULL... eso o cambiar todos los NULL que esté usando...
 #endif
