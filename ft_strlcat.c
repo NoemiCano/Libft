@@ -6,7 +6,7 @@
 /*   By: ncano-co <ncano-co@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/29 18:01:51 by ncano-co          #+#    #+#             */
-/*   Updated: 2026/10/02 16:39:42 by ncano-co         ###   ########.fr       */
+/*   Updated: 2026/10/02 17:03:13 by ncano-co         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	i = 0;
 	while (src[i] && ((d_len + i) < (size - 1)))
 	{
-		dst[d_len + 1] = src[i];
+		dst[d_len + i] = src[i];
 		i++;
 	}
 	dst[d_len + i] = '\0';
