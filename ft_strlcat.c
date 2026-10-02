@@ -6,7 +6,7 @@
 /*   By: ncano-co <ncano-co@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/29 18:01:51 by ncano-co          #+#    #+#             */
-/*   Updated: 2026/09/30 17:05:19 by ncano-co         ###   ########.fr       */
+/*   Updated: 2026/10/02 16:39:42 by ncano-co         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,6 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 		s_len++;
 	if (d_len == size)
 		return (size + s_len);
-
 	i = 0;
 	while (src[i] && ((d_len + i) < (size - 1)))
 	{

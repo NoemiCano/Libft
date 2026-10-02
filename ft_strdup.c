@@ -6,17 +6,17 @@
 /*   By: ncano-co <ncano-co@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/02 15:40:02 by ncano-co          #+#    #+#             */
-/*   Updated: 2026/10/02 16:01:30 by ncano-co         ###   ########.fr       */
+/*   Updated: 2026/10/02 16:37:59 by ncano-co         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *strdup(const char *s)
+char	*strdup(const char *s)
 {
-	char *str;
-	size_t i;
-	size_t len;
+	char	*str;
+	size_t	i;
+	size_t	len;
 
 	len = 0;
 	while (s[len])
@@ -25,7 +25,7 @@ char *strdup(const char *s)
 	if (!str)
 		return (NULL);
 	i = 0;
-	while(i < len)
+	while (i < len)
 	{
 		str[i] = s[i];
 		i++;

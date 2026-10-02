@@ -6,15 +6,15 @@
 /*   By: ncano-co <ncano-co@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/01 16:33:04 by ncano-co          #+#    #+#             */
-/*   Updated: 2026/10/01 17:20:00 by ncano-co         ###   ########.fr       */
+/*   Updated: 2026/10/02 16:37:24 by ncano-co         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strrchr(const char *s, int c)
+char	*ft_strrchr(const char *s, int c)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (s[i])

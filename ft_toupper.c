@@ -6,11 +6,11 @@
 /*   By: ncano-co <ncano-co@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/30 17:22:19 by ncano-co          #+#    #+#             */
-/*   Updated: 2026/09/30 17:26:19 by ncano-co         ###   ########.fr       */
+/*   Updated: 2026/10/02 16:39:21 by ncano-co         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_toupper(int c)
+int	ft_toupper(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (c - 32);
