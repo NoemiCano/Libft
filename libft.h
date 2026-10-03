@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ncano-co <ncano-co@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: ncano-co <ncano-co@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/28 18:28:35 by ncano-co          #+#    #+#             */
-/*   Updated: 2026/10/02 17:07:17 by ncano-co         ###   ########.fr       */
+/*   Updated: 2026/10/03 11:22:02 by ncano-co         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,5 +44,7 @@ char	*ft_strnstr(const char *s, const char *s2, size_t n);
 char	*ft_strrchr(const char *s, int c);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
+// Parte 2 - Funciones adicionales
+char	*ft_substr(char const *s, unsigned int start, size_t len);
 
 #endif
