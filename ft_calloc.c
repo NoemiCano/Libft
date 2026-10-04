@@ -6,13 +6,13 @@
 /*   By: ncano-co <ncano-co@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/02 15:16:10 by ncano-co          #+#    #+#             */
-/*   Updated: 2026/10/02 16:38:36 by ncano-co         ###   ########.fr       */
+/*   Updated: 2026/10/04 17:12:58 by ncano-co         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*calloc(size_t n, size_t size)
+void	*ft_calloc(size_t n, size_t size)
 {
 	void	*ptr;
 	size_t	total_size;

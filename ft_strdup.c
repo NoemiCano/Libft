@@ -6,13 +6,13 @@
 /*   By: ncano-co <ncano-co@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/02 15:40:02 by ncano-co          #+#    #+#             */
-/*   Updated: 2026/10/02 16:37:59 by ncano-co         ###   ########.fr       */
+/*   Updated: 2026/10/04 17:12:46 by ncano-co         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*strdup(const char *s)
+char	*ft_strdup(const char *s)
 {
 	char	*str;
 	size_t	i;
