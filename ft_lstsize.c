@@ -6,15 +6,15 @@
 /*   By: ncano-co <ncano-co@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/08 16:19:38 by ncano-co          #+#    #+#             */
-/*   Updated: 2026/10/08 16:30:14 by ncano-co         ###   ########.fr       */
+/*   Updated: 2026/10/08 16:33:35 by ncano-co         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-unsigned int ft_lstsize(t_list *lst)
+unsigned int	ft_lstsize(t_list *lst)
 {
-	unsigned int count;
+	unsigned int	count;
 
 	count = 0;
 	if (!lst)

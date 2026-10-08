@@ -6,7 +6,7 @@
 /*   By: ncano-co <ncano-co@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/28 18:28:35 by ncano-co          #+#    #+#             */
-/*   Updated: 2026/10/08 16:20:36 by ncano-co         ###   ########.fr       */
+/*   Updated: 2026/10/08 16:35:01 by ncano-co         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,8 +62,9 @@ typedef struct s_list
 	void			*content;
 	struct s_list	*next;
 }	t_list;
-void			ft_lstadd_front(t_list **lst, t_list *new);
-t_list			*ft_lstnew(void *content);
+void	ft_lstadd_front(t_list **lst, t_list *new);
+t_list	*ft_lstlast(t_list *lst);
+t_list	*ft_lstnew(void *content);
 unsigned int	ft_lstsize(t_list *lst);
 
 #endif
