@@ -6,12 +6,9 @@
 /*   By: ncano-co <ncano-co@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/28 18:28:35 by ncano-co          #+#    #+#             */
-/*   Updated: 2026/10/08 18:36:05 by ncano-co         ###   ########.fr       */
+/*   Updated: 2026/10/08 18:49:17 by ncano-co         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-// En libft.h solo van las declaraciones (los prototipos) de las funciones, 
-// los #include necesarios y la estructura del header guard para evitar 
 
 #ifndef LIBFT_H
 # define LIBFT_H
@@ -68,7 +65,8 @@ void			ft_lstclear(t_list **lst, void (*del)(void *));
 void			ft_lstdelone(t_list *lst, void (*del)(void*));
 void			ft_lstiter(t_list *lst, void (*f)(void *));
 t_list			*ft_lstlast(t_list *lst);
-t_list			*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+t_list			*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)
+					(void *));
 t_list			*ft_lstnew(void *content);
 unsigned int	ft_lstsize(t_list *lst);
 
