@@ -12,7 +12,23 @@ Además, he implementado otras funciones adicionales de utilidad general, que no
 Este proyecto permite comprender los fundamentos de la programación en bajo nivel en lenguaje C, la gestión de memoria dinámica, el manejo de punteros y la estructuración de librerías estáticas mediante archivos cabecera (`.h`) y el comando `ar`. Todo el código cumple estrictamente con las reglas de la **Norminette** de 42 y está libre de *memory leaks*.
 
 # Instrucciones
-Incluyendo compilación, instalación y/o ejecución.
+
+## Requisitos previos
+
+Para poder compilar y probar este proyecto necesitas un entorno de desarrollo Unix/Linux o macOS con las siguientes herramientas instaladas:
+* **Compilador de C:** `gcc`
+* **Herramienta de automatización:** `make`
+* **Archivador de librerías:** `ar`
+---
+## Compilación de la librería
+
+Clona primero el repositorio:
+```bash
+git clone (https://github.com/NoemiCano/Libft.git)
+cd Libft
+
+Para compilar utiliza el comando:
+make
 
 # Recursos
 "Recursos"que enumere referencias clásicas relacionadas con el tema (documentación, artículos, tutoriales, etc.), así como una descripción del uso de IA, especificando para qué tareas y en qué partes del proyecto se ha utilizado
