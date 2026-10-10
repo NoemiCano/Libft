@@ -1,17 +1,26 @@
-<h1 align="center">
-	📚 Libft - @42
-</h1>
+*Este proyecto ha sido creado como parte del currículo de 42 por ncano-co.*
 
-<p align="center">
-	<b><i>Mi primera biblioteca propia en C</i></b>
-</p>
+# Descripción
+El proyecto **Libft** es el primer reto del Cursus de **42**. 
 
-<p align="center">
-	<img src="https://img.shields.io/badge/Score-125%2F100-success?style=for-the-badge&logo=42" alt="Score 125/100" />
-	<img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c" alt="Language C" />
-</p>
+Su objetivo principal es comprender como actúan estas funciones, implementarlas por mi cuenta y aprender a utilizarlas de forma eficaz.
 
----
+He replicado funciones de la librería estándar de C (`libc`), manteniendo los prototipos y comportamientos de las funciones originales, siguiendo fielmente las definiciones indicadas en la página del `man` de cada función. La única diferencia es el prefijo `ft_`.
+
+Además, he implementado otras funciones adicionales de utilidad general, que no son de la librería `libc`. Y, también he incluido funciones para manejar memoria y cadenas manejando listas enlazadas.
+
+Este proyecto permite comprender los fundamentos de la programación en bajo nivel en lenguaje C, la gestión de memoria dinámica, el manejo de punteros y la estructuración de librerías estáticas mediante archivos cabecera (`.h`) y el comando `ar`. Todo el código cumple estrictamente con las reglas de la **Norminette** de 42 y está libre de *memory leaks*.
+
+# Instrucciones
+Incluyendo compilación, instalación y/o ejecución.
+
+# Recursos
+"Recursos"que enumere referencias clásicas relacionadas con el tema (documentación, artículos, tutoriales, etc.), así como una descripción del uso de IA, especificando para qué tareas y en qué partes del proyecto se ha utilizado
+
+
+debe incluirse una descripción detallada de la librería creada para este
+proyecto
+
 
 ## 📌 Acerca del proyecto
 
