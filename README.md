@@ -31,6 +31,26 @@ Para compilar utiliza el comando:
 ```bash
 make
 ```
+## El Makefile incluye las siguientes reglas
+* **`NAME`**: Genera la librería estática `libft.a`.
+* **`all`**: Compila la librería con todas las funciones obligatorias.
+* **`clean`**: Borra todos los archivos objeto (`.o`).
+* **`fclean`**: Borra los archivos objeto y el archivo compilado `libft.a`.
+* **`re`**: Ejecuta una limpieza total (`fclean`) y vuelve a compilar desde cero (`all`).
+
+
+1. Funciones de la libc (prefijo ft_)
+Manipulación de memoria: ft_memset, ft_bzero, ft_memcpy, ft_memmove, ft_memchr, ft_memcmp, ft_calloc.
+
+Manipulación de cadenas: ft_strlen, ft_strlcpy, ft_strlcat, ft_strchr, ft_strrchr, ft_strncmp, ft_strnstr, ft_strdup.
+
+Comprobación y conversión de caracteres: ft_isalpha, ft_isdigit, ft_isalnum, ft_isascii, ft_isprint, ft_toupper, ft_tolower, ft_atoi.
+
+2. Funciones adicionales (no estándar de la libc)
+ft_substr, ft_strjoin, ft_strtrim, ft_split, ft_itoa, ft_strmapi, ft_striteri, ft_putchar_fd, ft_putstr_fd, ft_putendl_fd, ft_putnbr_fd.
+
+3. Parte Bonus (Listas Enlazadas)
+ft_lstnew, ft_lstadd_front, ft_lstsize, ft_lstlast, ft_lstadd_back, ft_lstdelone, ft_lstclear, ft_lstiter, ft_lstmap.
 
 # Recursos
 "Recursos"que enumere referencias clásicas relacionadas con el tema (documentación, artículos, tutoriales, etc.), así como una descripción del uso de IA, especificando para qué tareas y en qué partes del proyecto se ha utilizado
