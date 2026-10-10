@@ -24,11 +24,13 @@ Para poder compilar y probar este proyecto necesitas un entorno de desarrollo Un
 
 Clona primero el repositorio:
 ```bash
-git clone (https://github.com/NoemiCano/Libft.git)
+git clone https://github.com/NoemiCano/Libft.git
 cd Libft
-
+```
 Para compilar utiliza el comando:
+```bash
 make
+```
 
 # Recursos
 "Recursos"que enumere referencias clásicas relacionadas con el tema (documentación, artículos, tutoriales, etc.), así como una descripción del uso de IA, especificando para qué tareas y en qué partes del proyecto se ha utilizado
