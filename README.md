@@ -32,11 +32,22 @@ Para compilar utiliza el comando:
 make
 ```
 ## El Makefile incluye las siguientes reglas
-* **`NAME`**: Genera la librería estática `libft.a`.
-* **`all`**: Compila la librería con todas las funciones obligatorias.
+* **`all`**: Compila la librería con todas las funciones.
 * **`clean`**: Borra todos los archivos objeto (`.o`).
 * **`fclean`**: Borra los archivos objeto y el archivo compilado `libft.a`.
 * **`re`**: Ejecuta una limpieza total (`fclean`) y vuelve a compilar desde cero (`all`).
+
+# Recursos
+
+## Referencias y documentación
+* **Manuales del sistema (`man`):** Consulta indispensable desde la terminal para conocer los prototipos, comportamientos y valores de retorno de las funciones originales de la `libc`.
+* **https://ibm.com:** Referencia en línea muy útil para comprender la sintaxis, tipos de datos y valor devuelto.
+* **Documentación oficial de 42:** Subject interno del proyecto y manual de estilo de la **Norminette**.
+
+## Uso de Inteligencia Artificial
+La Inteligencia Artificial se ha utilizado de forma complementaria en este proyecto.
+* **Resolución de dudas** Consultas puntuales sobre la teoría de punteros a funciones y algunas consultas cuando el man era poco descriptivo con las ejecuciones internas de las funciones.
+
 
 
 1. Funciones de la libc (prefijo ft_)
