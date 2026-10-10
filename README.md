@@ -48,80 +48,16 @@ make
 La Inteligencia Artificial se ha utilizado de forma complementaria en este proyecto.
 * **Resolución de dudas** Consultas puntuales sobre la teoría de punteros a funciones y algunas consultas cuando el man era poco descriptivo con las ejecuciones internas de las funciones.
 
+# Funciones implementadas
+La librería se divide en tres bloques principales de funciones:
 
+## 1. Funciones de la `libc` (prefijo `ft_`)
+* **Manipulación de memoria:** `ft_memset`, `ft_bzero`, `ft_memcpy`, `ft_memmove`, `ft_memchr`, `ft_memcmp`, `ft_calloc`
+* **Manipulación de cadenas:** `ft_strlen`, `ft_strlcpy`, `ft_strlcat`, `ft_strchr`, `ft_strrchr`, `ft_strncmp`, `ft_strnstr`, `ft_strdup`
+* **Comprobación y conversión de caracteres:** `ft_isalpha`, `ft_isdigit`, `ft_isalnum`, `ft_isascii`, `ft_isprint`, `ft_toupper`, `ft_tolower`, `ft_atoi`
 
-1. Funciones de la libc (prefijo ft_)
-Manipulación de memoria: ft_memset, ft_bzero, ft_memcpy, ft_memmove, ft_memchr, ft_memcmp, ft_calloc.
+## 2. Funciones adicionales (no estándar de la `libc`)
+* `ft_substr`, `ft_strjoin`, `ft_strtrim`, `ft_split`, `ft_itoa`, `ft_strmapi`, `ft_striteri`, `ft_putchar_fd`, `ft_putstr_fd`, `ft_putendl_fd`, `ft_putnbr_fd`
 
-Manipulación de cadenas: ft_strlen, ft_strlcpy, ft_strlcat, ft_strchr, ft_strrchr, ft_strncmp, ft_strnstr, ft_strdup.
-
-Comprobación y conversión de caracteres: ft_isalpha, ft_isdigit, ft_isalnum, ft_isascii, ft_isprint, ft_toupper, ft_tolower, ft_atoi.
-
-2. Funciones adicionales (no estándar de la libc)
-ft_substr, ft_strjoin, ft_strtrim, ft_split, ft_itoa, ft_strmapi, ft_striteri, ft_putchar_fd, ft_putstr_fd, ft_putendl_fd, ft_putnbr_fd.
-
-3. Parte Bonus (Listas Enlazadas)
-ft_lstnew, ft_lstadd_front, ft_lstsize, ft_lstlast, ft_lstadd_back, ft_lstdelone, ft_lstclear, ft_lstiter, ft_lstmap.
-
-# Recursos
-"Recursos"que enumere referencias clásicas relacionadas con el tema (documentación, artículos, tutoriales, etc.), así como una descripción del uso de IA, especificando para qué tareas y en qué partes del proyecto se ha utilizado
-
-
-debe incluirse una descripción detallada de la librería creada para este
-proyecto
-
-
-## 📌 Acerca del proyecto
-
-El proyecto **Libft** es el primer proyecto en el Cursus de **42**. Su objetivo es reprogramar un conjunto de funciones de la librería estándar de C (`libc`), así como otras funciones de utilidad que se utilizarán a lo largo de los siguientes proyectos de la carrera.
-
-Comprender cómo funcionan estas funciones a bajo nivel, la gestión de memoria y el uso de punteros es fundamental para construir una base sólida en C.
-
-> **Nota:** El proyecto respeta al 100% la **Norminette** (norma de código interna de 42) y no presenta *memory leaks*.
-
----
-
-## 🛠️ Contenido de la librería
-
-El proyecto se divide en tres partes principales:
-
-### 1. Funciones de la `libc` reescritas
-Funciones estándar para manipulación de memoria y cadenas, con el prefijo `ft_`:
-
-* **Memorias:** `ft_memset`, `ft_bzero`, `ft_memcpy`, `ft_memmove`, `ft_memchr`, `ft_memcmp`, `ft_calloc`
-* **Cadenas:** `ft_strlen`, `ft_strlcpy`, `ft_strlcat`, `ft_strchr`, `ft_strrchr`, `ft_strncmp`, `ft_strnstr`, `ft_strdup`
-* **Verificación y conversión de caracteres:** `ft_isalpha`, `ft_isdigit`, `ft_isalnum`, `ft_isascii`, `ft_isprint`, `ft_toupper`, `ft_tolower`, `ft_atoi`
-
-### 2. Funciones adicionales
-Funciones no incluidas en la `libc` estándar o en formato modificado:
-
-* `ft_substr` - Extrae una subcadena de un string.
-* `ft_strjoin` - Concatena dos strings en una nueva memoria reservada.
-* `ft_strtrim` - Elimina caracteres específicos al principio y final de un string.
-* `ft_split` - Divide un string usando un carácter delimitador y devuelve un array de strings.
-* `ft_itoa` - Convierte un número entero a string.
-* `ft_strmapi` - Aplica una función a cada carácter de un string para crear uno nuevo.
-* `ft_striteri` - Aplica una función a cada carácter de un string (por referencia).
-* `ft_putchar_fd` - Escribe un carácter en un *file descriptor*.
-* `ft_putstr_fd` - Escribe una cadena en un *file descriptor*.
-* `ft_putendl_fd` - Escribe una cadena con salto de línea en un *file descriptor*.
-* `ft_putnbr_fd` - Escribe un número en un *file descriptor*.
-
-### 3. Parte Bonus (Listas Enlazadas)
-Funciones para manipular estructuras de listas enlazadas (`t_list`):
-
+## 3. Listas Enlazadas
 * `ft_lstnew`, `ft_lstadd_front`, `ft_lstsize`, `ft_lstlast`, `ft_lstadd_back`, `ft_lstdelone`, `ft_lstclear`, `ft_lstiter`, `ft_lstmap`
-
----
-
-## 🚀 Uso e Instalación
-
-### Requisitos previos
-* Compilador `gcc` o `clang`
-* Herramienta `make`
-
-### Compilación
-
-Para compilar la biblioteca mandatoria:
-```bash
-make
