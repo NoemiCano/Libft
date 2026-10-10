@@ -49,7 +49,7 @@ SRCS =	ft_atoi.c \
 
 OBJS = $(SRCS:.c=.o)
 
-.PHONE: all clean fclean re
+.PHONY: all clean fclean re
 
 all: $(NAME)
 
