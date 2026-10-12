@@ -1,4 +1,4 @@
-*Este proyecto ha sido creado como parte del currículo de 42 por ncano-co.*
+*Este proyecto ha sido creado como parte del currículo de 42 por Noemí Cano.*
 
 # Descripción
 El proyecto **Libft** es el primer reto del Cursus de **42**. 
@@ -61,7 +61,3 @@ La librería se divide en tres bloques principales de funciones:
 
 ### 3. Listas Enlazadas
 * `ft_lstnew`, `ft_lstadd_front`, `ft_lstsize`, `ft_lstlast`, `ft_lstadd_back`, `ft_lstdelone`, `ft_lstclear`, `ft_lstiter`, `ft_lstmap`
-
-# Autor
-
-* Noemí Cano Conesa
